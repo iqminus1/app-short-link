@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/short_link_db
+    password: 123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  mail:
+    username: 90cf4fdaba0f6a
+    password: c7b6570cc1b84c
+    host: sandbox.smtp.mailtrap.io
+    port: 587
+  cache:
+    redis:
+      time-to-live: 25m
+server:
+  port: 80

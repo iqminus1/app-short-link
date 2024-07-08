@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  sql:
+    init:
+      mode: always
+
+app:
+  jwt:
+    secretKey: 79758544b49066c27fe5f0d516921dde79657398bf730c1497a997f827b04c67
+    expireDays: 7
